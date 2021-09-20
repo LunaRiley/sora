@@ -3,77 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sora's Personal Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherish&family=Yanone+Kaffeesatz:wght@300&display=swap"
+        rel="stylesheet">
+
+
+    <title>Sora - The Black Cat</title>
 </head>
-<style>
-    .pic {
-        border: 1px solid black;
-        border-radius: 50%;
-    }
-</style>
 
 <body>
-    <table cellspacing="25px">
-        <tr>
-            <td>
-                <img class=pic src="sora.jpg" width=200px alt="Sora">
-            </td>
-            <td>
-                <h1>Sora</h1>
-                <p><em>Professional Black Cat</em></p>
-                <p>I'm a black cat that loves my moms. Sometimes I attack them because yes.</p>
-            </td>
-        </tr>
-    </table>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+        <h1>I'm Sora</h1>
+        <h2 class="subtitle">a professional black cat</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img class="flames" src="images/flames.svg" alt="flames">
 
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>Black Cat Studies, Undergrad, University of Hell</li>
-        <li>Screaming Really Loud, Thesis</li>
-        <li>How to be Super Cute and Annoying, Advanced Course</li>
-    </ul>
-    <hr>
-    <h3>Hobbies</h3>
-    <ol>
-        <li>Annoying my <a href="sisters.jpg" target="_blank">sisters</a></li>
-        <li>Kissing and showing my a** to my moms</li>
-        <li>Screaming for food even though my bowl is full</li>
-    </ol>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing=20>
-        <tr>
-            <td>
-                Screaming
-            </td>
-            <td>
-                ⭐⭐⭐⭐⭐
-            </td>
-            <td>
-                Attacc
-            </td>
-            <td>
-                ⭐⭐⭐⭐⭐
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Being Cute
-            </td>
-            <td>
-                ⭐⭐⭐⭐⭐
-            </td>
-            <td>
-                Hitting the dogs
-            </td>
-            <td>
-                ⭐⭐⭐⭐
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3><a href="contact.html">Contact Me</a></h3>
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profilepic" src="images/sora.jpg" alt="Me">
+            <h2>Hello.</h2>
+            <p>I'm a black cat that loves my moms. Sometimes I attack them because yes.
+            </p>
+        </div>
+        <hr class="dots">
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="screampic" src="images/scream.png" alt="scream">
+                <h3>Screaming</h3>
+                <p class="skilldesc">I'm a pretty good screamer. Sometimes I scream because I want more food (even when it's already
+                    available). Sometimes I scream just to annoy my moms. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, sed aperiam necessitatibus a ex ipsum, vitae voluptas.</p>
+            </div>
+            <div class="skill-row">
+                <img class="cutepic" src="images/cute.png" alt="cute">
+                <h3>Being Cute</h3>
+                <p class="skilldesc">I mean, just look at me. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur veritatis ullam labore sed explicabo sunt provident illo voluptate ducimus ad consectetur doloremque beatae nihil, nulla eveniet saepe libero repellat reiciendis.</p>
+            </div>
+        </div>
+        <hr class="dots">
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3 class="contactfooter">If you want to talk to me:</h3>
+            <p>Forget it.</p>
+            <a class="dontemailme" href="mailto:dont@email.me">DON'T EMAIL ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <p class="copyright">© 2021 Black Cat Inc.</p>
+    </div>
+
 </body>
 
 </html>
