@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* background-color: #da2d2d60; */
+}
+
+.top-container {
+    padding-top: 100px;
+    background-color: #9D0B0B;
+    position: relative;
+    line-height: 2;
+}
+
+.middle-container {}
+
+.bottom-container {
+    height: 100px;
+    background-color: #eb8342;
+}
+
+.copyright {
+    position: relative;
+    /* left: 50%; */
+    top: 50%;
+}
+p {
+    font-size: 1.25rem;
+    /* margin: 0; */
+
+}
+
+.profilepic {
+    width: 200px;
+    border: solid 0px black;
+    border-radius: 50%;
+    margin: 50px 0 50px 0;
+}
+
+.screampic {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.cutepic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contactfooter {
+    margin: 25px 0 25px 0;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Cherish', cursive;
+    font-size: 7rem;
+    color: #EB8242;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #9D0B0B;
+    margin: 25px 0 25px 0;
+}
+
+h3 {
+    color: #EB8242;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle {
+    color: #EB8242;
+    padding: 50px;
+
+}
+a {
+    color: #F6DA63;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 170px;
+    left: 350px;
+    opacity: 75%;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    opacity: 75%;
+}
+
+.flames {
+    position: relative;
+    width: 500px;
+    top: 12px;
+}
+
+.top-container h2 {
+    font-weight: normal;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skilldesc {
+    margin: 0;
+}
+
+.dots {
+    border: dotted 1px rgba(0, 0, 0, 0.30);
+    border-width: 0 0 5px 0;
+    width: 3%;
+    margin: 50px auto 50px auto;
+}
+
+.dontemailme {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #DA2D2D;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
